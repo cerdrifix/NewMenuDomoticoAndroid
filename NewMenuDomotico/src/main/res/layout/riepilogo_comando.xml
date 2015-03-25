@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@drawable/custom_shape_2"
+            android:gravity="center_horizontal" >
+
+            <ImageButton
+                android:id="@+id/buttonBack"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="4dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/impostazioni"
+                android:src="@drawable/ic_back" />
+            
+            <ImageButton
+                android:id="@+id/buttonSend"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="4dp"
+                android:layout_marginRight="@dimen/dp10"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/impostazioni"
+                android:src="@drawable/ic_send"
+                android:text="@string/button_send" />
+
+            <TextView
+                android:id="@+id/title"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text="@string/resume_title"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20dp" />
+
+            <RelativeLayout
+                android:id="@+id/impiantoManualeContainer"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:visibility="visible" >
+
+                <Button
+                    android:id="@+id/impiantoManualePulsanteRubrica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/ImpiantoManualePulsanteRubricaLabel"
+                    android:textSize="12dp" android:layout_marginBottom="10dp"/>
+
+                <EditText
+                    android:id="@+id/ImpiantoManualeText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:ems="10"
+                    android:textSize="14dp"
+                    android:hint="@string/insert_phone_descrittive"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:shadowRadius="5"
+                    android:inputType="phone" >
+
+                    <requestFocus />
+                </EditText>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ImpiantoAutomaticoContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="fill_vertical"
+                    android:layout_weight="1"
+                    android:text="@string/ImpiantoAutomaticoLabel"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="14dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/resume_pin_title"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20dp" />
+
+            <RelativeLayout
+                android:id="@+id/PinManualeContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/PinManualeText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:ems="10"
+                    android:hint="@string/insert_pin_descrittive"
+                    android:inputType="number"
+                    android:password="true"
+                    android:maxLength="4"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:shadowRadius="5"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/PinAutomaticoContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PinAutomaticoLabel"
+                    android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="14dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="12dp" >
+
+	    <Button
+	        android:id="@+id/invia_in_page"
+	        android:layout_width="0dip"
+	        android:layout_height="40dp"
+	        android:layout_weight="1"
+	        android:background="@drawable/bn_orange"
+	        android:text="@string/button_send"
+	        android:textColor="@android:color/white"
+	        android:textSize="14dp"
+	        android:textStyle="bold" />
+
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<string name="app_name">New Menu Domotico</string>
+	<string name="impianto_domotico">Domotikanlage</string>
+	<string name="impianto_manuale_label">Telefon:</string>
+	<string name="ImpiantoManualePulsanteRubricaLabel">Die Nummer aus dem Verzeichnis auswählen</string>
+	<string name="ImpiantoAutomaticoLabel">Die Anlagennummer wird automatisch den Einstellungen entnommen</string>
+	<string name="pin_manuale_label">PIN:</string>
+	<string name="PinAutomaticoLabel">Der PIN wird automatisch den Einstellungen entnommen</string>
+	<string name="indietro">Zurück</string>
+	<string name="button_send">Senden</string>
+	<string name="pin_automatico_question">Automatischer PIN</string>
+	<string name="impianto_automatico_question">Automaticher anlagen</string>
+	<string name="impostazione_funzioni_menu">Anzeigeeinstellungen der Funktionen</string>
+	<string name="salva">Speichern</string>
+	<string name="cancel">Annullieren </string>
+	<string name="name">Name</string>
+	<string name="phone">Telefon</string>
+	<string name="address_book">Verzeichnis</string>
+	<string name="function_description">Beschreibung</string>
+	<string name="contact_details_title">Kontaktdetails</string>
+	<string name="contact_details_button_use">Den Kontakt verwenden</string>
+	<string name="contact_details_button_save">Den Kontakt speichern</string>
+	<string name="contact_details_button_delete">Den Kontakt löschen</string>
+	<string name="ab_list_empty">Kein Kontakt gefunden</string>
+	<string name="phone_ab_title">Telefonverzeichnis</string>
+	<string name="phone_ab_search_button_text">Suchen</string>
+	<string name="local_ab_title">Lokales Verzeichnis</string>
+	<string name="delete_local_contact"></string>
+	<string name="edit_local_contact">Kontakt ändern</string>
+	<string name="new_local_contact">Neuer Kontakt</string>
+	<string name="resume_title">Domotikanlangenauswahl</string>
+	<string name="resume_pin_title">PIN-Eingabe</string>
+	<string name="insert_pin_descrittive">Die PIN eingeben</string>
+	<string name="insert_phone_descrittive">Die Telefonnummer eingeben</string>
+	<string name="function_is_visible">Die Funktion anzeigen?</string>
+	<string name="yes">JA</string>
+	<string name="no">NEIN</string>
+	<string name="contact_details_button_copy">In das lokales Verzeichnis kopieren</string>
+	<string name="settings">Einstellungen</string>
+	<string name="ricerca_contatto">Einen Kontakt suchen.</string>
+	<string name="maintenance_section_enable">Die Wartungsfunktion aktivieren?</string>
+   	<string name="tutti">Alle</string>
+	
+	<string name="zone">Zone</string>
+	<string name="sensore_semplice">Einfacher Sensor</string>
+	<string name="sensore">Sensor</string>
+	<string name="concentratore">Streckenverstärker</string>
+	<string name="scelta_concentratore">Auswahl des Streckenverstärkers: </string>
+	<string name="scelta_sensore">Auswahl des Sensors: </string>
+	<string name="invio_messaggio">Senden</string>
+	<string name="invio_messaggio_in_corso"> </string>
+	<string name="impostazioni_lingua">Personalisierung der Sprache </string>
+	<string name="lingua_di_sistema">Systemsprache</string>
+	<string name="italiano">Italienisch</string>
+	<string name="inglese">Englisch</string>
+	<string name="deutsch">Deutsch</string>
+	<string name="all_choices_required"> </string>
+	<string name="all_informations_required"> </string>
+	<string name="next">Vorwärts</string>
+    
+    <string name="local_addressbook">Verzeichnis</string>
+    <string name="phone_addressbook">Telefonverzeichnis</string>
+	
+</resources>

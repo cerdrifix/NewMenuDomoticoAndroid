@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/impianto_domotico"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/custom_shape_2">
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="4dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/indietro"
+                android:src="@drawable/ic_back" />
+
+            <ImageButton
+                android:id="@+id/saveButton"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="4dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/salva"
+                android:src="@drawable/ic_save" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/settings_funzione_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/function_description"
+            android:inputType="text"
+            android:layout_margin="20dp">
+
+            <requestFocus />
+        </EditText>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:baselineAligned="false" >
+
+            <ToggleButton
+                android:id="@+id/settings_funzione_visibility_toggle_button"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textOff="@string/no"
+                android:textOn="@string/yes" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/function_is_visible"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+
+		<Button
+		    android:id="@+id/salva_in_page"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_margin="20dp"
+		    android:background="@drawable/bn_orange"
+		    android:text="@string/salva"
+		    android:textColor="@android:color/white"
+		    android:textSize="14dp"
+		    android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">New Menu Domotico</string>
+    <string name="empty"/>
+    <string name="impianto_domotico">Domotic system</string>
+    <string name="impianto_manuale_label">Phone number:</string>
+    <string name="ImpiantoManualePulsanteRubricaLabel">Choose the number from address book</string>
+    <string name="ImpiantoAutomaticoLabel">Phone number will be automatically set</string>
+    <string name="pin_manuale_label">PIN:</string>
+    <string name="PinAutomaticoLabel">PIN will be automatically set</string>
+    <string name="indietro">Back</string>
+    <string name="button_send">Send</string>
+    <string name="pin_automatico_question">Auto PIN</string>
+    <string name="impianto_automatico_question">Auto phone number</string>
+    <string name="impostazione_funzioni_menu">Functions visibility settings</string>
+    <string name="impostazioni">Settings</string>
+    <string name="salva">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+   	<string name="address_book">Address Book</string>
+   	<string name="function_description">Description</string>
+   	<string name="all_choices_required">Attention. Complete all fields required.</string>
+   	<string name="all_informations_required">Attention. All informations are required.</string>
+   	<string name="tutti">All sensors</string>
+    
+    <string name="contact_details_title">Contact details</string>
+    <string name="contact_details_button_use">Use contact</string>
+    <string name="contact_details_button_save">Save contact</string>
+    <string name="contact_details_button_delete">Delete contact</string>
+    
+    <string name="ab_list_empty">No contact found</string>
+    
+    <string name="phone_ab_title">Device address book</string>
+    <string name="phone_ab_search_button_text">Search</string>
+    
+    <string name="local_ab_title">Application address book</string>
+    
+    <string name="delete_local_contact">Delete contact</string>
+    <string name="edit_local_contact">Edit contact</string>
+    <string name="new_local_contact">New contact</string>
+    <string name="resume_title">Domotic system</string>
+    <string name="resume_pin_title">Enter PIN</string>
+    <string name="insert_pin_descrittive">Enter PIN</string>
+    <string name="insert_phone_descrittive">Insert phone number</string>
+    <string name="function_is_visible">Show the function?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <item type="id" name="TAG_ONLINE_ID" />
+    <item type="id" name="TAG_IMAGE_ID" />
+
+    <string name="contact_details_button_copy">Copy into local address book</string>
+    <string name="settings">Settings</string>
+    <string name="ricerca_contatto">Search contacts..</string>
+    <string name="maintenance_section_enable">Enable maintenance section</string>
+    <string name="zone">Zone</string>
+    <string name="sensore_semplice">Simple sensor</string>
+    <string name="sensore">Sensor</string>
+    <string name="concentratore">Concentrator</string>
+    <string name="scelta_concentratore">Select concentrator</string>
+    <string name="scelta_sensore">Select sensor</string>
+    
+    <string name="invio_messaggio">Send message</string>
+    <string name="invio_messaggio_in_corso">Sending message..</string>
+    
+    <string name="impostazioni_lingua">Language settings</string>
+    <string name="lingua_di_sistema">System language</string>
+    <string name="italiano">Italian</string>
+    <string name="inglese">English</string>
+    <string name="deutsch">German</string>
+    
+    <string name="local_addressbook">Address book</string>
+    <string name="phone_addressbook">Telephone book</string>
+    
+</resources>

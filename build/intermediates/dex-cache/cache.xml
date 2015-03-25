@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Volumes/iryBackup/Davide/Lavoro/Progetto ABB/AndroidSDK/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/cerdrifix/Documents/ABB/Repo/Android/AndroidStudio/NewMenuDomotico/NewMenuDomotico/build/intermediates/pre-dexed/debug/support-v4-19.1.0-c42fa9660d5687670902d17374684d572696cf96.jar" />
+    </item>
+
+</items>

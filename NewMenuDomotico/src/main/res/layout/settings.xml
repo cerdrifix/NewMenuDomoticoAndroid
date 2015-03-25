@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/impianto_domotico"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/custom_shape_2">
+
+            <ImageButton
+                android:id="@+id/buttonBack"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="4dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/indietro"
+                android:src="@drawable/ic_back" />
+
+            <ImageButton
+                android:id="@+id/saveButton"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="4dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/salva"
+                android:src="@drawable/ic_save" />
+
+            <ImageButton
+                android:id="@+id/editFunctionsButton"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="4dp"
+                android:layout_toLeftOf="@+id/saveButton"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/empty"
+                android:src="@drawable/ic_edit_functions" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/settings"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#fff" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:baselineAligned="false"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:baselineAligned="false" >
+
+                <ToggleButton
+                    android:id="@+id/settingsPinToggleButton"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:textOff="Off"
+                    android:textOn="On"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/pin_automatico_question"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="16sp" />
+                
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/settingsPinAutomaticoContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:baselineAligned="false"
+                android:visibility="visible" >
+
+                <EditText
+                    android:id="@+id/settingsPinAutomatico"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:ems="10"
+                    android:hint="@string/insert_pin_descrittive"
+                    android:inputType="numberDecimal"
+                    android:maxLength="4" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:baselineAligned="false"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:baselineAligned="false" >
+
+            <ToggleButton
+                android:id="@+id/settingsImpiantoToggleButton"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textOff="Off"
+                android:textOn="On"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/impianto_automatico_question"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/settingsImpiantoAutomaticoContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:baselineAligned="false"
+            android:visibility="visible" android:orientation="vertical">
+
+			<EditText
+			    android:id="@+id/settingsImpiantoAutomatico"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:ems="10"
+			    android:hint="@string/insert_phone_descrittive"
+			    android:inputType="numberDecimal" />
+			
+			<Button
+			    android:id="@+id/impiantoAutomaticoPulsanteRubrica"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="10dp"
+			    android:layout_marginTop="10dp"
+			    android:background="@drawable/bn_orange"
+			    android:text="@string/ImpiantoManualePulsanteRubricaLabel"
+			    android:textColor="#fff"
+			    android:textSize="12sp"
+			    android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:baselineAligned="false"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:baselineAligned="false" >
+
+            <ToggleButton
+                android:id="@+id/settingsMaintenanceToggleButton"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textOff="Off"
+                android:textOn="On"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/maintenance_section_enable"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/impostazioni_lingua"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+        
+		<Spinner
+		    android:id="@+id/languages"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/LinearLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:baselineAligned="false"
+            android:visibility="visible" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

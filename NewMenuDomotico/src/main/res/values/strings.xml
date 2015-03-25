@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">New Menu Domotico</string>
+    <string name="empty"/>
+    <string name="impianto_domotico">Impianto Domotico</string>
+    <string name="impianto_manuale_label">Telefono:</string>
+    <string name="ImpiantoManualePulsanteRubricaLabel">Scegli il numero dalla rubrica</string>
+    <string name="ImpiantoAutomaticoLabel">Il numero dell\'impianto verrà ricavato automaticamente dalle impostazioni</string>
+    <string name="pin_manuale_label">PIN:</string>
+    <string name="PinAutomaticoLabel">Il PIN verrà ricavato automaticamente dalle impostazioni</string>
+    <string name="indietro">Indietro</string>
+    <string name="button_send">Invia</string>
+    <string name="pin_automatico_question">PIN Automatico</string>
+    <string name="impianto_automatico_question">Impianto Automatico</string>
+    <string name="impostazione_funzioni_menu">Impostazioni di visualizzazione delle Funzioni</string>
+    <string name="impostazioni">Impostazioni</string>
+    <string name="salva">Salva</string>
+    <string name="cancel">Annulla</string>
+    <string name="next">Avanti</string>
+    <string name="name">Nome</string>
+    <string name="phone">Telefono</string>
+   	<string name="address_book">Rubrica</string>
+   	<string name="function_description">Descrizione</string>
+   	<string name="all_choices_required">Attenzione. Effettuare tutte le scelte.</string>
+   	<string name="all_informations_required">Attenzione. Inserire tutte le informazioni.</string>
+   	<string name="tutti">Tutti</string>
+    
+    <string name="contact_details_title">Dettagli Contatto</string>
+    <string name="contact_details_button_use">Usa il contatto</string>
+    <string name="contact_details_button_save">Salva il contatto</string>
+    <string name="contact_details_button_delete">Elimina il contatto</string>
+    
+    <string name="ab_list_empty">Nessun contatto trovato</string>
+    
+    <string name="phone_ab_title">Rubrica del telefono</string>
+    <string name="phone_ab_search_button_text">Cerca</string>
+    
+    <string name="local_ab_title">Rubrica locale</string>
+    
+    <string name="delete_local_contact">Elimina Contatto</string>
+    <string name="edit_local_contact">Modifica Contatto</string>
+    <string name="new_local_contact">Nuovo Contatto</string>
+    <string name="resume_title">Scelta Impianto Domotico</string>
+    <string name="resume_pin_title">Inserimento PIN</string>
+    <string name="insert_pin_descrittive">Inserire il PIN</string>
+    <string name="insert_phone_descrittive">Inserire il numero di telefono</string>
+    <string name="function_is_visible">Visualizzare la funzione?</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+
+    <item type="id" name="TAG_ONLINE_ID" />
+    <item type="id" name="TAG_IMAGE_ID" />
+
+    <string name="contact_details_button_copy">Copia nella rubrica locale</string>
+    <string name="settings">Impostazioni</string>
+    <string name="ricerca_contatto">Cerca un contatto..</string>
+    <string name="maintenance_section_enable">Abilita sezione manutentori</string>
+    <string name="zone">Zona</string>
+    <string name="sensore_semplice">Sensore Semplice</string>
+    <string name="sensore">Sensore</string>
+    <string name="concentratore">Concentratore</string>
+    <string name="scelta_concentratore">Scelta Concentratore</string>
+    <string name="scelta_sensore">Scelta Sensore</string>
+    
+    <string name="invio_messaggio">Invio messaggio</string>
+    <string name="invio_messaggio_in_corso">Invio messaggio in corso..</string>
+    
+    <string name="impostazioni_lingua">Impostazioni lingua</string>
+    <string name="lingua_di_sistema">Lingua di sistema</string>
+    <string name="italiano">Italiano</string>
+    <string name="inglese">Inglese</string>
+    <string name="deutsch">Tedesco</string>
+    
+    <string name="local_addressbook">Rubrica locale</string>
+    <string name="phone_addressbook">Rubrica del Telefono</string>
+    
+</resources>
